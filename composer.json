@@ -1,7 +1,7 @@
 {
   "name": "nazikorl/advanced-tz",
   "description": "work with soap",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "hz",
   "authors": [
     {
