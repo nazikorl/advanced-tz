@@ -1,15 +1,6 @@
 {
   "name": "nazikorl/advanced-tz",
   "version":"1.0.0",
-  "description": "work with soap",
-  "minimum-stability": "stable",
-  "license": "hz",
-  "authors": [
-    {
-      "name": "Nazar Orlovsky",
-      "email": "nazar.orlovsky@gmail.com"
-    }
-  ],
   "require": {
     "zendframework/zendframework1": "1.12.15"
   },
