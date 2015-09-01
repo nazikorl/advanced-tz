@@ -1,0 +1,18 @@
+<?php if (4 === $this->step): ?>
+    <div style="float: right">
+        <a href="<?php echo $this->serverUrl(true); ?>">Try again</a>
+    </div>
+    <h2>Server Answer:</h2>
+    <pre><?php echo $this->result; ?></pre>
+<?php else: ?>
+    <h1>Step <?php echo $this->step ?></h1>
+
+    <?php if (1 == $this->step): ?>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $('#startDate, #endDate').datepicker().datepicker('setDate', new Date());
+            });
+        </script>
+    <?php endif; ?>
+    <?php echo $this->form->render($this); ?>
+<?php endif;

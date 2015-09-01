@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+        <meta charset="UTF-8" />
+        <title><?php echo $this->headTitle; ?></title>
+        <base href="<?php echo $this->serverUrl() . $this->baseUrl(); ?>">
+        <style type="text/css">
+            form {
+                width: 600px;
+            }
+
+            form dd > * {
+                width: 100%
+            }
+            
+            .errors {
+                color: red;
+            }
+        </style>
+    </head>
+    <body class="container">
+
+        <div><?php echo $this->layout()->content; ?></div>
+        <script src="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
